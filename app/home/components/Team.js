@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <>
       <section className="">
-        <div className="md:container mx-auto px-5">
+        <div className="md:container mx-auto px-5 "id="team">
           {/* heading section */}
           <div className="text-center">
             <h2 className="font-russo font-normal xl:text-[40px] lg:text-3xl md:text-xl text-lg capitalize">

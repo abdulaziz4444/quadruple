@@ -5,7 +5,7 @@ import Services from "./components/Services";
 import Articles from "./components/Articles";
 import World from "./components/World";
 import Team from "./components/Team";
-import SliderSecond from "./components/SliderSecond";
+import SliderSecond from "./components/Projects";
 import InTouch from "./components/InTouch";
 import FooterTop from "@/components/FooterTop";
 

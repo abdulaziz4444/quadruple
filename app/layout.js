@@ -4,6 +4,7 @@ import { Archivo } from "next/font/google";
 import { Farro } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Whatsapp from "@/components/Whatsapp";
 
 
 const manrope = Manrope({ subsets: ["latin"] });
@@ -36,7 +37,7 @@ export default function RootLayout({ children }) {
       >
         <Header/>
         {children}
-        {/* <FooterTop/> */}
+        <Whatsapp/>
       </body>
     </html>
   );

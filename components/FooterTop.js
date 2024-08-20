@@ -65,7 +65,7 @@ const FooterTop = () => {
                 </h5>
                 <ul className="md:pt-[18px] pt-1 flex flex-col md:gap-2 gap-0">
                   <li>
-                    <Link href="/" className="capitalize text-grayy text-sm">
+                    <Link href="#" className="capitalize text-grayy text-sm">
                       about
                     </Link>
                   </li>
@@ -75,7 +75,7 @@ const FooterTop = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" className="capitalize text-grayy text-sm">
+                    <Link href="#services" className="capitalize text-grayy text-sm">
                       services
                     </Link>
                   </li>
@@ -89,7 +89,7 @@ const FooterTop = () => {
                 </h5>
                 <ul className=" md:pt-[18px] pt-1 flex flex-col md:gap-2 gap-0">
                   <li>
-                    <Link href="/" className="capitalize text-grayy text-sm">
+                    <Link href="/blog" className="capitalize text-grayy text-sm">
                       blog
                     </Link>
                   </li>

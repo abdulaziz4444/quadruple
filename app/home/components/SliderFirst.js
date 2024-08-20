@@ -16,9 +16,11 @@ const SliderFirst = () => {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 500,
+    speed: 8000,
     slidesToShow: 4,
-    slidesToScroll:2,
+    slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed:0,
     // useCSS:true,
     responsive: [
       {

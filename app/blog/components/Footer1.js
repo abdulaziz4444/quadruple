@@ -75,7 +75,7 @@ const Footer1 = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="#" className="capitalize text-white text-sm hover:underline">
+                      <Link href="#services" className="capitalize text-white text-sm hover:underline">
                         services
                       </Link>
                     </li>
@@ -89,7 +89,7 @@ const Footer1 = () => {
                   </h5>
                   <ul className=" md:pt-[18px] pt-1 flex flex-col md:gap-2 gap-0">
                     <li>
-                      <Link href="/" className="capitalize text-white text-sm hover:underline">
+                      <Link href="/blog" className="capitalize text-white text-sm hover:underline">
                         blog
                       </Link>
                     </li>

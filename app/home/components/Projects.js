@@ -11,7 +11,7 @@ import { Star } from "@/public/icons/Icons";
 import pic1 from "@/public/images/slidersecondpic1.png";
 import pic2 from "@/public/images/slidersecondpic2.png";
 
-const SliderSecond = () => {
+const Projects = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -31,7 +31,7 @@ const SliderSecond = () => {
     ]
   };
   return (
-    <section className="bg-darkgray md:mt-20 mt-10 md:py-20 py-10 relative">
+    <section className="bg-darkgray md:mt-20 mt-10 md:py-20 py-10 relative" id="projects">
       <div className="md:container mx-auto px-5">
         <div className="absolute md:top-20 top-0 md:left-[10%] left-6">
           <Star className="md:w-10 w-8 md:h-10 h-8" />
@@ -123,4 +123,4 @@ const SliderSecond = () => {
   );
 };
 
-export default SliderSecond;
+export default Projects;
